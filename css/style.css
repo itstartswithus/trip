@@ -13,6 +13,31 @@ background: #295E5E;
 border-radius: 5px;
 }
 
+.window {
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.window:target {
+    display: block;
+}
+
+.window__form{
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 20px;
+}
+
 body {
     
     font-family: "Rubik", sans-serif;

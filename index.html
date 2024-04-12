@@ -10,8 +10,12 @@
         <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
-    <div class="window">
-        <form action="" class="window__form"></form>
+    <div class="window" id="modal">
+        <form action="" class="window__form">
+            <a href="" class="window__close">
+                <i class="far fa-times-circle"></i>
+            </a>
+        </form>
     </div>
     <header class="header">
         <nav class="nav">
@@ -29,7 +33,7 @@
         <div class="header__content">
 <h1 class="header__title">GoTrip</h1>
 <p class="header__desc">travel comfortably with us</p>
-<a href="" class="header__link">More</a>
+<a href="#modal" class="header__link">More</a>
         </div>
     </header>
     <main >
